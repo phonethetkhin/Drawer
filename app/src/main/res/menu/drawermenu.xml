@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_download"
+            android:title="Download Asset" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_scan"
+            android:title="Stock Taking" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_upload"
+            android:title="Upload Asset" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_location"
+            android:title="Location List" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_uploaded"
+            android:title="Uploaded List" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_serverconfig"
+            android:title="Server Setting" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_exit"
+            android:title="Exit" />
+    </group>
+</menu>
